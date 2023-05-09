@@ -1,4 +1,4 @@
-// Create a functional component and export it
+// RFCE: Create a functional component and export it
 // import React from 'react'
 
 // function ES7snippets() {
@@ -20,7 +20,7 @@
 
 // export default ES7snippets
 
-// Create and export a class component
+// RCE: Create and export a class component
 // import React, { Component } from 'react'
 
 // export class ES7snippets extends Component {
