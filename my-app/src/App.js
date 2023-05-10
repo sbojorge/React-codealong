@@ -1,14 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 
-import EventsFunctional from './components/EventsFunctional';
-import EventsClass from './components/EventsClass';
+import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
+import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 
 function App() {
     return (
         <div className="App">
-            <EventsFunctional />
-            <EventsClass />
+            <ConditionalRenderingFunctional connected={false} />
+            <ConditionalRenderingClass />
+
         </div>
 
 
